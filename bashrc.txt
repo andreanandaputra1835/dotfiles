@@ -1,0 +1,6 @@
+[[ $- != *i* ]] && return
+
+PS1='┌─ \e[30m\e[0m\e[40m \e[43m\e[30m    \w \e[0m\e[33m\e[40m  \e[0m\e[30m\e[0m\n└─󰁔 '
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
